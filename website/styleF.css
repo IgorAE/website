@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    min-height: 10vh;
+    justify-content: center;
+    padding: 0;
+    background: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50% ;
+    }
+}
+.btn {
+
+    margin: 15, 0, 0;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to left, #23074d, #cc5333);
+    text-decoration: none;
+    padding: 20px 70px;
+    border-radius: 15px;
+    background-size: 200%;
+    transition: .5s;
+}
+.bt1 {
+
+    margin: 30, 0, 0;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to left, #23074d, #cc5333);
+    text-decoration: none;
+    padding: 20px 70px;
+    border-radius: 15px;
+    background-size: 200%;
+    transition: .5s;
+}
+.bt1:hover {
+    background-position: right;
+}
+.btnn2 {
+
+    margin: -30, 0, 0;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to left, #23074d, #cc5333);
+    text-decoration: none;
+    padding: 20px 70px;
+    border-radius: 15px;
+    background-size: 200%;
+    transition: .5s;
+}
+.btnn2:hover {
+    background-position: right;
+}
+
+.btn:hover {
+    background-position: right;
+}
+.block {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20 px;
+    color:antiquewhite;
+}
+
+.block1 {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10 px;
+    border-radius: 15px;
+    color:antiquewhite;
+}
+p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
